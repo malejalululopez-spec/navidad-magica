@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Navidad Mágica</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>🎄 Feliz Navidad 🎁</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#celebraciones">Celebraciones</a></li>
+        <li><a href="#recetas">Recetas</a></li>
+        <li><a href="#regalos">Regalos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>La temporada navideña ha llegado</h2>
+    <p>La Navidad es un tiempo para compartir, para abrazar a quienes amamos y para recordar que la verdadera magia está en los pequeños detalles.</p>
+    <img src="banner-navidad.jpg" alt="Banner navideño">
+  </section>
+
+  <section id="celebraciones">
+    <h2>Celebraciones para llevar el espíritu navideño</h2>
+    <img src="celebraciones.jpg" alt="Familia decorando árbol">
+    <p>Explora ideas mágicas para hacer tus reuniones inolvidables.</p>
+  </section>
+
+  <section id="recetas">
+    <h2>Recetas irresistibles para la Navidad</h2>
+    <img src="recetas.jpg" alt="Galletas de jengibre">
+    <ul>
+      <li>🍪 Galletas de jengibre con glaseado</li>
+      <li>🥂 Ponche navideño tradicional</li>
+      <li>🦃 Pavo relleno al horno</li>
+    </ul>
+  </section>
+
+  <section id="regalos">
+    <h2>Ideas de regalos con amor</h2>
+    <img src="regalos.jpg" alt="Regalos navideños">
+    <p>Encuentra detalles creativos que sacarán sonrisas.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Mensaje navideño"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

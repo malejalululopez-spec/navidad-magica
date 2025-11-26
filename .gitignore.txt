@@ -1,0 +1,19 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de configuración local
+.env
+*.local
+
+# Archivos de compilación
+dist/
+node_modules/
+
+# Archivos de respaldo
+*.bak
+*.swp
